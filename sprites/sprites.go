@@ -123,7 +123,7 @@ func (s *Sprite) Update() {
 	s.last = now
 }
 
-func (s *Sprite) Draw(target ebiten.Image) {
+func (s *Sprite) Draw(target *ebiten.Image) {
 	// Don't draw non-visible objects.
 	if !s.Visible {
 		return
