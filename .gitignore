@@ -1,0 +1,17 @@
+# IDE project files
+.vscode/
+.idea/
+
+# Build artifacts
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+bin/
+
+# Test binary
+*.test
+
+# Go workspace file
+go.work
